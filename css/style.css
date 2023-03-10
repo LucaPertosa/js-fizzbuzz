@@ -1,3 +1,50 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: lightcoral;
+    background-color: blueviolet;
+    font-family: 'Metal Mania', cursive;
+}
+
+.title {
+    text-align: center;
+    margin: 3rem 0;
+    color: white;
+    font-size: 3rem;
+}
+
+.grid {
+    width: 1000px;
+    gap: 10px;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc(100% / 5 - 10px);
+    height: 190px;
+    background-color: orange;
+    border-radius: 100px;
+    border: 2px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.3rem;
+}
+
+.Fizz {
+    background-color: blue;
+}
+
+.Buzz {
+    background-color: green;
+}
+
+.FizzBuzz {
+    background-color: red;
 }
